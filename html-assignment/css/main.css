@@ -19,3 +19,5 @@ ul.b :nth-child(odd) {background: #fa3556;}
 /* Remove Bullets */
 ul.a {list-style-type: none;}
 
+/* Remove underline */
+a:link {text-decoration: none;}
