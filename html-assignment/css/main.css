@@ -26,3 +26,7 @@ a:link {text-decoration: none;}
 a:link {border: 4px #327cec;}
 a:link {background-color: beige;}
 
+/* Hover/Focus Links */
+a:visited {background-color: aquamarine;}
+a:hover {background-color: deeppink;}
+a:active {background-color: springgreen;}
