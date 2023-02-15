@@ -21,3 +21,8 @@ ul.a {list-style-type: none;}
 
 /* Remove underline */
 a:link {text-decoration: none;}
+
+/* Add Background/Border */
+a:link {border: 4px #327cec;}
+a:link {background-color: beige;}
+
