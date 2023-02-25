@@ -1,7 +1,9 @@
 /* header format */
 header {
+        padding: auto;
         background-color: beige;
         background-image: url(../images/seamain.jpg);
+        background-repeat: no-repeat;
         }
 
 header h1 {
@@ -46,6 +48,28 @@ body {
 
 /* form box */
 .form {
+    width: 100%;
     outline: solid;
-    ;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+#message {
+    height: 100px;
+}
+input[type=submit] {
+    color: purple;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+input[type=radio] {
+    margin: 5px;
+    cursor: pointer;
 }
