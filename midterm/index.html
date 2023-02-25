@@ -8,23 +8,25 @@
     <title>Spazzy Sabby's Midterm</title>
 </head>
 <body>
-    <header><h1>Sabby's Seahorses</h1></header>
-    <nav>
-        <ul>
+    <header>
+        <h1>Sabby's Seahorses</h1>
+    </header>
+        <ul class="nav">
             <li><a href="home.html">Home</a></li>
             <li><a href="story.html">Story</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <article>
+
+    <section>
         <h2>Biography of a Seahorse</h2>
     
         <p>
-            <img src="images/seaabout.jpg" id="sea1" alt="close up of seahorse">
+            <img src="images/seaabout.jpg" id="sea2" alt="close up of seahorse">
 
         Seahorses, scientifically called Hippocampus Genus; small but mighty, there are 40 known species found in tropical shallows throughout the world. They are not a staple of diets in the ocean due to the armor-like plates covering their body, although crabs love to eat them. Seahorses actually suck at swimming due to the shape of their body, and the fact that they only have one fin: they can die of exhaustion in rough seas if they don't anchor themselves in place with their tails to coral and sea grasses. These tiny wonders eat up to 3,000 brine shrimp in a day, they have no teeth and stomach meaning food goes through them so quickly that they have to eat all the time to stay alive! While there is no concrete evidence about a seahorses natural lifespan, it is estimated they live 1 to 5 years; species dependent.
         </p>
-    
+    </section>
+    <section>
         <h3>Specifics About Seahorses</h3>
         <ul>
             <li>They are covered in plates similar to armor, making them hard to digest</li>
@@ -33,8 +35,9 @@
             <li>Each seahorse has its own "fingerprint": a crown on their head called a coral net. The size and design vary on each seahorse making each one unique.</li>
         </ul>
         <h3>Contact to learn more!</h3>
-    </article>
-    <form action="/action_page.php">
+    </section>
+    <div class="form">
+        <form action="/action_page.php">
         <label for="yname">Your Name</label>
         <input type="text" id="yname" name="yname"><br>
         <label for="yemail">Your Email</label>
@@ -49,7 +52,9 @@
         <input type="radio" id="maybe" name="seeone" value="Maybe">
         <label for="maybe">Maybe</label><br>
         <input type="submit" value="Submit">
-    </form>
+        </form>
+    </div>
+
     <footer>&copy; Sabby's Seahorses</footer>
 </body>
 </html>

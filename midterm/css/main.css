@@ -1,7 +1,46 @@
+/* header format */
 header {
+        background-color: beige;
+        background-image: url(../images/seamain.jpg);
+        background-size: 
+        }
+
+#sea1 {
+    width: 100%;
+    height: auto;
+}
+h2 {
     text-align: center;
-    color: black;
-    background-image: url("../images/seamain.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+}
+h3 {
+    text-align: center;
+}
+
+/* navigation format */
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;    
+}
+.nav li {
+    display: inline-block;
+}
+
+/* body format */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+/* picture format */
+#sea2 {
+    width: 200px;
+    float: left;
+}
+
+/* form box */
+.form {
+    outline: solid;
+    ;
+}
