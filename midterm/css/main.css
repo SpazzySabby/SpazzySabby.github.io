@@ -1,9 +1,10 @@
 /* header format */
 header {
-        padding: auto;
+        padding: 60px;
         background-color: beige;
         background-image: url(../images/seamain.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
         }
 
 header h1 {
@@ -60,7 +61,7 @@ body {
 }
 
 /* form box */
-.form {
+div.form {
     width: 100%;
     outline: solid;
 }
@@ -86,4 +87,9 @@ input[type=submit] {
 input[type=radio] {
     margin: 5px;
     cursor: pointer;
+}
+
+/* footer */
+footer {
+    text-align: center;
 }
