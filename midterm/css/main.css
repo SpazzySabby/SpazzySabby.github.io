@@ -2,8 +2,12 @@
 header {
         background-color: beige;
         background-image: url(../images/seamain.jpg);
-        background-size: 
         }
+
+header h1 {
+    text-align: center;
+    margin: 50px;;
+}
 
 #sea1 {
     width: 100%;
@@ -34,9 +38,10 @@ body {
 }
 
 /* picture format */
-#sea2 {
+.one img{
     width: 200px;
     float: left;
+    clear: both;
 }
 
 /* form box */
