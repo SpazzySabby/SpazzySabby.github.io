@@ -5,6 +5,7 @@ header {
         background-image: url(../images/seamain.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         }
 
 header h1 {
@@ -33,13 +34,17 @@ h3 {
 }
 .nav li {
     display: inline-block;
+    font-size: 28px;
+    padding: 10px;
 }
 
 a {
-    display: block;
     padding: 10px 40px;
     color: black;
     text-decoration: none;
+}
+a:hover {
+    color: hotpink;
 }
 /* body format */
 body {
@@ -54,12 +59,12 @@ body {
 .one img {
     width: 200px;
     float: left;
-    clear: both;
+    clear: left;
 }
 .two img {
     width: 200px;
     float: right;
-    clear: both;
+    clear: right;
 }
 
 /* form box */
@@ -84,8 +89,6 @@ input[type=submit] {
     margin: 5px;
     cursor: pointer;
 }
-
-
 input[type=radio] {
     margin: 5px;
     cursor: pointer;
