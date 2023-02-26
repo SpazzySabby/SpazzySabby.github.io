@@ -54,9 +54,14 @@ body {
 }
 
 /* picture format */
-.one img{
+.one img {
     width: 200px;
     float: left;
+    clear: both;
+}
+.two img {
+    width: 200px;
+    float: right;
     clear: both;
 }
 
@@ -91,5 +96,5 @@ input[type=radio] {
 
 /* footer */
 footer {
-    text-align: center;
+    text-align: right;
 }
