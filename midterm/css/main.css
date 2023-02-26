@@ -59,12 +59,16 @@ body {
 .one img {
     width: 200px;
     float: left;
-    clear: left;
+    clear: both;
 }
 .two img {
     width: 200px;
     float: right;
-    clear: right;
+    clear: both;
+}
+
+h3 {
+    clear: both;
 }
 
 /* form box */
