@@ -52,7 +52,12 @@ body {
     margin: 100px;
     background-color: lightskyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    ;
+}
+.one {
+    line-height: 1.5;
+}
+.facts {
+    line-height: 2.5;
 }
 
 /* picture format */
