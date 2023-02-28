@@ -8,11 +8,10 @@ header {
         background-position: center;
         }
 
-header h1 {
-    text-align: center;
-    margin: 50px;
+.words {
+    color: rgb(0, 0, 0);
+    font-size: 72px
 }
-
 #sea1 {
     width: 100%;
     height: auto;
@@ -28,14 +27,19 @@ h3 {
 .nav {
     list-style-type: none;
     text-align: center;
-    margin: 0;
-    padding: 0;    
+    padding: 10px;    
     overflow: hidden;
 }
 .nav li {
+    border-right: 2px solid;
     display: inline-block;
     font-size: 25px;
-    padding: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav li:last-child {
+    border-right: 0;
 }
 
 a {
@@ -119,4 +123,5 @@ input[type=radio] {
 footer {
     text-align: right;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
