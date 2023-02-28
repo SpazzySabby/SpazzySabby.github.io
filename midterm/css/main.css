@@ -1,7 +1,7 @@
 /* header format */
 header {
         padding: 300px;
-        background-color: beige;
+        background-color: rgb(0, 195, 221);
         background-image: url(../images/seamain.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: hotpink;
+    color: blueviolet;
 }
 /* body format */
 body {
