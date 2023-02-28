@@ -10,7 +10,7 @@ header {
 
 header h1 {
     text-align: center;
-    margin: 50px;;
+    margin: 50px;
 }
 
 #sea1 {
@@ -48,8 +48,15 @@ a:hover {
 }
 /* body format */
 body {
-    background-color: lightskyblue;
+    background-color: darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;  
+  padding: 5px;
+  background-color: lightskyblue;
 }
 .one {
     line-height: 2;
