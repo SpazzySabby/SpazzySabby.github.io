@@ -1,6 +1,6 @@
 /* header format */
 header {
-        padding: 100px;
+        padding: 300px;
         background-color: beige;
         background-image: url(../images/seamain.jpg);
         background-repeat: no-repeat;
@@ -48,8 +48,6 @@ a:hover {
 }
 /* body format */
 body {
-    padding: 100px;
-    margin: 100px;
     background-color: lightskyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
