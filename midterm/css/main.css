@@ -83,8 +83,9 @@ h3 {
 
 /* form box */
 div.form {
-    width: 100%;
+    width: auto;
     outline: solid;
+    padding: 10px;
 }
 input[type=text] {
     width: 100%;
@@ -98,9 +99,10 @@ input[type=text] {
 #message {
     height: 100px;
 }
+
 input[type=submit] {
-    color: purple;
-    margin: 5px;
+    background-color: turquoise;
+    margin: 10px;
     cursor: pointer;
 }
 input[type=radio] {
