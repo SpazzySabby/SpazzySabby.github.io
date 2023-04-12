@@ -71,3 +71,17 @@ body {
     background-image: url("main-banner");
 }
     
+
+
+
+
+
+
+
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
