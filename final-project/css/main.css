@@ -69,21 +69,29 @@ body h1 {
 }
 
 body h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: x-large;
     font-weight: bold;
 }
 
 body h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: larger;
     font-weight: 900;
 }
 
 body h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: large;
     font-weight: 800;
 }
 
 body h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: medium;
     font-weight: 700;
 }
@@ -101,9 +109,13 @@ body h5 {
 @media screen and (min-width: 760px) {
 
 }
+/* Form Styling */
 
-.form1 {
-
+label, input {
+    border-radius: 3px;
+}
+.form {
+    
 }
 
 .open {
