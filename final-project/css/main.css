@@ -154,7 +154,16 @@ ul li:nth-child(1) {
 .about img {
     width: 90%;
     padding: 40px;
+}
 
+/* Services Styling */
+
+.main-services h2 {
+    font-size: 3rem;
+}
+
+.digital img {
+    width: 100%;
 }
 /* Form Styling */
 
