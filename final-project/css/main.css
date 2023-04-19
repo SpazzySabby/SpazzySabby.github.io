@@ -69,13 +69,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Navigation bar setup mobile */
-@media screen and (min-width: 760px) {
-    body {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+/* Navigation bar setup */
+
 
 .nav {
     display: flex;
@@ -85,10 +80,16 @@ body {
     color: #c78c06;
 }
 
+.search {
+    height: 35px;
+    width: 90%;
+}
+
 ul li:nth-child(1) {
     background-color: #c78c06;
     color: #222;
 }
+
 .nav li {
     padding: 15px;
 }
@@ -101,6 +102,10 @@ ul li:nth-child(1) {
 .open {
     background-image: url("images/about-us.jpg");
     background-size: contain;
+}
+
+.welcome {
+    background-color: #c78c06;
 }
 
 
@@ -214,14 +219,6 @@ footer {
 
 
 
-
-
-
-/*
-.services  {
-    font-weight: bold;
-}*/
-
 /* Services Grid*/
 
 .services {
@@ -321,4 +318,10 @@ th, td {
 
 th {
     background-color: #ffe6ac;
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        
+    }
 }

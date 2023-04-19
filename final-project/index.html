@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/fd99edd9c3.js" crossorigin="anonymous"></script>
     <title>MTM6130 Final</title>
 </head>
 <body>
     <div class="wrapper1">
             <!-- Will use flex on parent, direct children nav, ul, form-->
-    <div>
+    <div class="welcome">
         <img src="images/logo.png" alt="company logo" class="logo"> 
         <nav class="nav">
             <ul>
@@ -22,15 +22,19 @@
                 <li>Team</li>
                 <li>Contact</li>
                 <li><input type="text" placeholder="Search.." class="search"></li>
+                <button type="button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+               
             </ul>
         </nav>
     </div>   
-    <section class="open">
+    <section>
+        <div class="open">
              <!--Will use CSS to insert a background image behind the h1 header-->
-        <h1>Welcome to Three Star Media</h1>
-        <p>Lorem ipsum, cupiditate voluptatum molestiae quia quod aliquid asperiores, a facilis aspernatur veritatis consequuntur similique hic commodi accusamus nihil, labore quae!</p>
+            <h1>Welcome to Three Star Media</h1>
+            <p>Lorem ipsum, cupiditate voluptatum molestiae quia quod aliquid asperiores, a facilis aspernatur veritatis consequuntur similique hic commodi accusamus nihil, labore quae!</p>
             <!-- Will transform all buttons with css-->
             <button type="button" class="mb">Connect with us</button>
+        </div>
     </section>
     <section>
         <img src="images/about-us.jpg" alt="employee area with ping pong table">
@@ -70,7 +74,7 @@
         <p>Lorem ipsu, cnimi vitae nam molestiae reiciendis aliquid recusandae id at dicta molestias enim eaque hic ipsum, velit aut, blanditiis quas obcaecati, deserunt necessitatibus.</p>
         <button type="button" class="bb">Print Plans</button>
     </section>
-    <section>
+    <section class="vision">
              <!--Will use CSS to put the boat background image in and the wrapper to extend the boats-->
         <div class="wrapper2">
             <h3>Our Vision</h3>
@@ -78,7 +82,7 @@
             <button type="button" class="bb">Learn More</button>
         </div>        
     </section>
-    <section>
+    <section class="team">
         <h2>Our Team</h2>
         <img src="images/john.jpg" alt="portrait of bob">
         <h3>John Doe</h3>
