@@ -52,6 +52,26 @@ body {
     font-family: 'Open Sans', sans-serif;
     
 }
+
+body h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+body h2 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+body h3 {
+    font-size: larger;
+    font-weight: 900;
+}
+
+body h4 {
+    font-size: large;
+    font-weight: 800;
+}
 /* Navigation bar setup */
 .nav {
     display: flex;
@@ -139,34 +159,3 @@ body {
     
 }
 
-.team2:nth-child(2) {
-    grid-area: image;
-}
-
-.team2:nth-child(3) {
-    grid-area: john;
-}
-
-.team2:nth-child(4) {
-    grid-area: john;
-}
-
-.team2:nth-child(5) {
-    grid-area: john;
-}
-
-.team2:nth-child(6) {
-    image2
-}
-
-.team2:nth-child(7) {
-    bob
-}
-
-.team2:nth-child(8) {
-    bob
-}
-
-.team2:nth-child(9) {
-    bob
-}
