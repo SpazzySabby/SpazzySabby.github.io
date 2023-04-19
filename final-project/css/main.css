@@ -59,8 +59,25 @@ table {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
 }
+
+/* Navigation bar setup mobile */
+@media screen and (min-width: 760px) {
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c78c06;
+}
+
+ul li:nth-child(1){
+    background-color: #222;
+}
+.nav li {
+    padding: 15px;}
+
+
 
 /* All header styling from h1 to h5 here */
 body h1 {
@@ -96,19 +113,7 @@ body h5 {
     font-weight: 700;
 }
 
-/* Navigation bar setup */
-.nav {
-    display: flex;
-    background-color: #c78c06;
-}
 
-.nav ul li {
-   flex-direction: column;
-}
-
-@media screen and (min-width: 760px) {
-
-}
 /* Form Styling */
 
 label, input {
@@ -130,17 +135,23 @@ label, input {
     background-color: #222;
     color: white;
     border: #222;
+    min-width: 100px;
+    min-height: 50px;
 }
 
 .bb2 {
     background-color: #222;
     color: white;
     border: #222;
+    min-width: 100px;
+    min-height: 30px;
 }
 
 .mb {
     background-color: #c78c06;
     border: #c78c06;
+    min-width: 100px;
+    min-height: 50px;
 }
 
 .mb2 {
@@ -152,6 +163,8 @@ label, input {
     background-color: #222;
     border: #222;
     color: #c78c06;
+    min-height: 25px;
+    margin-top: 15px;
 }
 
 .fb2 {
