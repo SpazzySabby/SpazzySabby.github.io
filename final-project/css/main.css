@@ -80,15 +80,29 @@ body {
 .nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #c78c06;
+    text-align: center;
+    background-color: #222;
+    color: #c78c06;
 }
 
-ul li:nth-child(1){
-    background-color: #222;
+ul li:nth-child(1) {
+    background-color: #c78c06;
+    color: #222;
 }
 .nav li {
-    padding: 15px;}
+    padding: 15px;
+}
+
+.logo {
+    background-color: #c78c06;
+    display: block;
+}
+
+.open {
+    background-image: url("images/about-us.jpg");
+    background-size: contain;
+}
+
 
 
 
@@ -151,7 +165,6 @@ footer {
     background-color: #222;
     height: 75px;
     color: #c78c06;
-    vertical-align: center;
 }
     
 /* Buttons Configurations */
