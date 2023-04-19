@@ -120,3 +120,53 @@ body {
     grid-area: pr;
 }
 
+.team2 {
+    background-color: #ffe6ac;
+}
+
+.team2:nth-child(1) {
+    font-weight: bold;
+}
+
+.team2 {
+    display: grid;
+    grid-template-columns: repeat(4) 1fr;
+    grid-template-areas:
+    "image image john john"
+    "image image john john"
+    "bob bob image2 image2"
+    "bob bob image2 image2"
+    
+}
+
+.team2:nth-child(2) {
+    grid-area: image;
+}
+
+.team2:nth-child(3) {
+    grid-area: john;
+}
+
+.team2:nth-child(4) {
+    grid-area: john;
+}
+
+.team2:nth-child(5) {
+    grid-area: john;
+}
+
+.team2:nth-child(6) {
+    image2
+}
+
+.team2:nth-child(7) {
+    bob
+}
+
+.team2:nth-child(8) {
+    bob
+}
+
+.team2:nth-child(9) {
+    bob
+}
