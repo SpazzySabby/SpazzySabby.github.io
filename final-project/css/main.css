@@ -151,6 +151,7 @@ body h4 {
 .team2 {
     display: grid;
     grid-template-columns: repeat(4) 1fr;
+    grid-template-rows: repeat(4) 1fr;
     grid-template-areas:
     "image image john john"
     "image image john john"
@@ -159,3 +160,24 @@ body h4 {
     
 }
 
+.image {
+    grid-area: image;
+}
+
+.john {
+    grid-area: john;
+}
+
+.image2 {
+    grid-area: image2;
+}
+
+.bob {
+    grid-area: bob;
+}
+
+.wrapper4 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
