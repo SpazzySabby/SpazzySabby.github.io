@@ -168,9 +168,41 @@ ul li:nth-child(1) {
     font-size: 3rem;
 }
 
-.digital img {
+.transform {
+    background-color: #ffe6ac;
+}
+.transform img {
     width: 100%;
 }
+
+.marketing {
+    background-color: #ffe6ac;
+}
+.marketing img {
+    width: 100%;
+}
+
+.video {
+    background-color: #ffe6ac;
+}
+.video img {
+    width: 100%;
+}
+
+.web {
+    background-color: #ffe6ac;
+}
+.web img {
+    width: 100%;
+}
+
+.print {
+    background-color: #ffe6ac;
+}
+.print img {
+    width: 100%;
+}
+
 /* Form Styling */
 
 .form {
