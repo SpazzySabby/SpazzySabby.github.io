@@ -48,6 +48,40 @@ table {
 
 /* Styling of website starts here with the body */
 
+/* All header styling from h1 to h5 here */
+body h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+body h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+body h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: 900;
+}
+
+body h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+    font-weight: 800;
+}
+
+body h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: medium;
+    font-weight: 700;
+}
+
 /* I made the screen size 1180 because I didn't want the paragraphs going right to the edge, I put 10 px padding on either side to make it 1200 px */
 .wrapper {
     max-width: 1180px;
@@ -93,41 +127,23 @@ ul li:nth-child(1) {
     background-color: #c78c06;
     
 }
+/* Welcome section styling */
 
-/* All header styling from h1 to h5 here */
-body h1 {
-    font-size: xx-large;
-    font-weight: bolder;
+.welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #c78c06;
+    align-items: center;
+    color: white; 
 }
 
-body h2 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: x-large;
-    font-weight: bold;
+.welcome h1 {
+    padding: 20px;
+    font-size: 5rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
 }
-
-body h3 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: larger;
-    font-weight: 900;
-}
-
-body h4 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: large;
-    font-weight: 800;
-}
-
-body h5 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: medium;
-    font-weight: 700;
-}
-
 
 /* Form Styling */
 
