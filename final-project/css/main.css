@@ -48,8 +48,11 @@ table {
 
 /* Styling of website starts here with the body */
 
+/* I made the screen size 1180 because I didn't want the paragraphs going right to the edge, I put 10 px padding on either side to make it 1200 px */
 .wrapper1 {
-    max-width: 1200px;
+    max-width: 1180px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -186,10 +189,6 @@ body h4 {
     background-color: #ffe6ac;
 }
 
-.team2:nth-child(1) {
-    font-weight: bold;
-}
-
 .team2 {
     display: grid;
     grid-template-columns: repeat(4) 1fr;
@@ -222,4 +221,26 @@ body h4 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Hours Table Configurations */
+
+caption {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+table {
+    display: table;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+th {
+    background-color: #ffe6ac;
 }
