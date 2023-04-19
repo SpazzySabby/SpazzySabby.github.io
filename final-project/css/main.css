@@ -49,15 +49,7 @@ table {
 /* Styling of website starts here with the body */
 
 /* I made the screen size 1180 because I didn't want the paragraphs going right to the edge, I put 10 px padding on either side to make it 1200 px */
-.wrapper1 {
-    max-width: 1180px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.wrapper4 {
+.wrapper {
     max-width: 1180px;
     padding-left: 10px;
     padding-right: 10px;
@@ -70,7 +62,6 @@ body {
 }
 
 /* Navigation bar setup */
-
 
 .nav {
     display: flex;
@@ -95,21 +86,13 @@ ul li:nth-child(1) {
 }
 
 .logo {
-    background-color: #c78c06;
     display: block;
 }
 
 .open {
-    background-image: url("images/about-us.jpg");
-    background-size: contain;
-}
-
-.welcome {
     background-color: #c78c06;
+    
 }
-
-
-
 
 /* All header styling from h1 to h5 here */
 body h1 {
@@ -150,14 +133,6 @@ body h5 {
 
 label, input {
     border-radius: 3px;
-}
-.form {
-    
-}
-
-.open {
-    background-color: #ffe6ac; 
-    background-image: url("main-banner");
 }
 
 /* Footer Styling */
