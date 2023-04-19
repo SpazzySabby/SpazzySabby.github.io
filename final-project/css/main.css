@@ -66,6 +66,10 @@ body {
 
 }
 
+.form1 {
+
+}
+
 .open {
     background-color: #ffe6ac; 
     background-image: url("main-banner");
@@ -77,11 +81,42 @@ body {
 
 
 
+/*
+.services  {
+    font-weight: bold;
+}*/
 
-
+/* Services Grid*/
 
 .services {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "dt dt dt ma ma ma"
+    "dt dt dt ma ma ma"
+    "dt dt dt ma ma ma"
+    "vp vp wd wd pr pr"
+    "vp vp wd wd pr pr"
+    "vp vp wd wd pr pr"
 }
+
+.dt {
+    grid-area: dt;
+}
+
+.ma {
+    grid-area: ma;
+}
+
+.vp {
+    grid-area: vp;
+}
+
+.wd {
+    grid-area: wd;
+}
+
+.pr {
+    grid-area: pr;
+}
+
