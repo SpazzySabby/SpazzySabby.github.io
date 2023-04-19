@@ -192,8 +192,6 @@ footer {
     color: #c78c06;
 }
 
-
-
 /* Services Grid*/
 
 .services {
@@ -237,6 +235,15 @@ footer {
 .team2 {
     background-color: #ffe6ac;
 }
+
+/* Vision Statement */
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+}
+
+/* Team Grid */
 
 .team2 {
     display: grid;
