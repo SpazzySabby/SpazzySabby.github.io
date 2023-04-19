@@ -102,7 +102,7 @@ body h4 {
 }
     
 /* Buttons Configurations */
-/* bb equals all big black buttons, bb2 euals all grid black buttons */
+/* bb = all big black buttons, bb2 = all grid black buttons, mb = main button, mb2 = main button 2 fb = form button, fb2 = form button 2  */
 
 .bb {
     background-color: #222;
@@ -115,6 +115,30 @@ body h4 {
     color: white;
     border: #222;
 }
+
+.mb {
+    background-color: #c78c06;
+    border: #c78c06;
+}
+
+.mb2 {
+    background-color: #c78c06;
+    border: #c78c06;
+}
+
+.fb {
+    background-color: #222;
+    border: #222;
+    color: #c78c06;
+}
+
+.fb2 {
+    background-color: #222;
+    border: #222;
+    color: #c78c06;
+}
+
+
 
 
 
