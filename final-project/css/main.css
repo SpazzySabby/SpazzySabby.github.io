@@ -48,6 +48,12 @@ table {
 
 /* Styling of website starts here with the body */
 
+.wrapper1 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     
@@ -95,8 +101,20 @@ body h4 {
     background-image: url("main-banner");
 }
     
+/* Buttons Configurations */
+/* bb equals all big black buttons, bb2 euals all grid black buttons */
 
+.bb {
+    background-color: #222;
+    color: white;
+    border: #222;
+}
 
+.bb2 {
+    background-color: #222;
+    color: white;
+    border: #222;
+}
 
 
 
