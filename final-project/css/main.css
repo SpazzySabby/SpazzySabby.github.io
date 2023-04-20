@@ -205,9 +205,20 @@ ul li:nth-child(1) {
 
 /* Team Styling */
 
-.team {
-    background-color: #ffe6ac;
+.team img {
+    width: 100%;
 }
+
+.john1 {
+    background-color: #ffe6ac;
+    padding-bottom: 15px;
+  }
+
+.bob1 {
+    background-color: #ffe6ac;
+    padding-bottom: 15px;
+}
+
 /* Form Styling */
 
 .form {
