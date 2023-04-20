@@ -308,15 +308,34 @@ footer {
 
 .welcome2 {
     background-image: url(../images/main-banner.jpg);
+    padding: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #c78c06;
     align-items: center;
     color: white; 
 }
+
+.welcome2 h2 {
+    padding: 20px;
+    font-size: 4rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
 /* About Us Styling */
 
-.about2 img 
+.about2 {
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+
+.about2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
 /* Services Grid*/
 
 .services {
