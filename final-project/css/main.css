@@ -203,6 +203,11 @@ ul li:nth-child(1) {
     width: 100%;
 }
 
+/* Team Styling */
+
+.team {
+    background-color: #ffe6ac;
+}
 /* Form Styling */
 
 .form {
