@@ -107,8 +107,8 @@ body {
 
 .search {
     height: 35px;
-    width: 90%;
-}
+    width: auto;
+ }
 
 ul li:nth-child(1) {
     background-color: #c78c06;
@@ -240,6 +240,13 @@ input[type=text] {
     height: 100px;
 }
 
+/* Map Styling */
+
+.map iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
 /* Footer Styling */
 
 footer {
@@ -309,9 +316,7 @@ footer {
 }
 /* About Us Styling */
 
-.about2 img {
-    float: left;
-}
+.about2 img 
 /* Services Grid*/
 
 .services {
@@ -360,6 +365,12 @@ footer {
 
 .vision {
     background-image: url(../images/vision.jpg);
+    padding: 100px;
+    color: white;
+}
+
+#button {
+    background-color: #222;
     color: white;
 }
 
@@ -398,6 +409,17 @@ footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Contact us float */
+
+.float {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location2 iframe {
+    height: 85%;
 }
 
 /* Hours Table Configurations */
