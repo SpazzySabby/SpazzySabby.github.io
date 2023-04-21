@@ -407,6 +407,9 @@ footer {
 
 .vision { 
     background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 100px;
     color: white;
 }
