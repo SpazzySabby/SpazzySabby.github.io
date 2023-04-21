@@ -272,6 +272,7 @@ footer {
 }
     
 /* Buttons Configurations */
+
 /* bb = all big black buttons, bb2 = all grid black buttons, mb = main button, mb2 = main button 2 fb = form button, fb2 = form button 2  */
 
 .bb {
@@ -318,11 +319,12 @@ footer {
     color: #c78c06;
 }
 
-/* Nav 2 Styling */
+/* Nav 2 Desktop Styling */
 
 .nav2 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #222;
 }
 
 /* Welcome Desktop styling */
@@ -343,7 +345,7 @@ footer {
     color: white;
     background: rgba(0,0,0,0.5);
 }
-/* About Us Styling */
+/* About Us Desktop Styling */
 
 .about2 {
     background-color: #ffe6ac;
@@ -414,7 +416,7 @@ footer {
     color: white;
 }
 
-/* Team Grid */
+/* Team Grid for Desktop */
 
 .team2 {
     display: grid;
@@ -455,10 +457,11 @@ footer {
     border-style: solid;
 }
 
-/* Contact us float */
+/* Contact us float configuration */
 
 .float {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -488,6 +491,8 @@ th {
     background-color: #ffe6ac;
 }
 
+/* media screen set-up */
+
 @media screen and (min-width: 760px) {
   body {
     font-size: 1.5rem;
@@ -501,6 +506,27 @@ th {
     min-width: 200px;
     min-height: 60px;
   }
+
+  .mb {
+    min-width: 200px;
+    min-height: 100px;
+  }
+
+  .mb2 {
+    min-width: 200px;
+    min-height: 60px;
+  }
+
+  .fb {
+    min-width: 200px;
+    min-height: 100px;
+  }
+
+  .fb2 {
+    min-width: 200px;
+    min-height: 60px;
+  }
+
  h1 h2 h3 h4 h5 {
     font-size: 1.5rem;
  }
