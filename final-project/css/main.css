@@ -106,8 +106,8 @@ body {
 }
 
 .search {
+    box-sizing: border-box;
     height: 35px;
-    width: auto;
  }
 
 ul li:nth-child(1) {
@@ -149,6 +149,7 @@ ul li:nth-child(1) {
 /* About us styling */
 
 .about {
+    padding: 25px;
     background-color: #ffe6ac;
 }
 
@@ -214,9 +215,19 @@ ul li:nth-child(1) {
     padding-bottom: 15px;
   }
 
+.john1 h4 {
+    border-bottom: #c78c06;
+    border-style: solid;
+    
+}
 .bob1 {
     background-color: #ffe6ac;
     padding-bottom: 15px;
+}
+
+.bob1 h4 {
+    border-bottom: #c78c06;
+    border-style: solid;
 }
 
 /* Form Styling */
@@ -235,7 +246,6 @@ input[type=text] {
     border-radius: 3px;
     box-sizing: border-box;
 }
-
 
 #message {
     height: 100px;
@@ -270,6 +280,7 @@ footer {
     border: #222;
     min-width: 100px;
     min-height: 50px;
+    margin: 25px;
 }
 
 .bb2 {
@@ -278,6 +289,7 @@ footer {
     border: #222;
     min-width: 100px;
     min-height: 30px;
+    margin: 25px;
 }
 
 .mb {
@@ -304,6 +316,13 @@ footer {
     background-color: #222;
     border: #222;
     color: #c78c06;
+}
+
+/* Nav 2 Styling */
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Welcome Desktop styling */
@@ -384,7 +403,7 @@ footer {
 
 /* Vision Statement */
 
-.vision {
+.vision { 
     background-image: url(../images/vision.jpg);
     padding: 100px;
     color: white;
@@ -399,7 +418,7 @@ footer {
 
 .team2 {
     display: grid;
-    grid-template-columns: repeat(4) 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "image image john john"
     "image image john john"
@@ -417,6 +436,11 @@ footer {
     grid-area: john;
 }
 
+.john h4 {
+    border-bottom: #c78c06;
+    border-style: solid;
+}
+
 .image2 {
     grid-area: image2;
 }
@@ -426,10 +450,9 @@ footer {
     grid-area: bob;
 }
 
-.wrapper4 {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+.bob h4 {
+    border-bottom: #c78c06;
+    border-style: solid;
 }
 
 /* Contact us float */
@@ -466,8 +489,20 @@ th {
 }
 
 @media screen and (min-width: 760px) {
-    .services {
-        flex: column;
-        
-    }
+  body {
+    font-size: 1.5rem;
+  }
+  .bb {
+    min-width: 200px;
+    min-height: 100px;
+  }
+
+  .bb2 {
+    min-width: 200px;
+    min-height: 60px;
+  }
+ h1 h2 h3 h4 h5 {
+    font-size: 1.5rem;
+ }
+
 }
