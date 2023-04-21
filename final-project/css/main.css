@@ -124,9 +124,9 @@ ul li:nth-child(1) {
 }
 
 .open {
-    background-color: #c78c06;
-    
+    background-color: #c78c06;  
 }
+
 /* Welcome section styling */
 
 .welcome {
@@ -464,7 +464,8 @@ th {
 }
 
 @media screen and (min-width: 760px) {
-    body {
+    .services {
+        flex: column;
         
     }
 }
